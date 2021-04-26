@@ -90,7 +90,7 @@ class _CartState extends State<Cart> {
                             SlideAnimations(
                               delay: .6,
                               child: Text(
-                                "Nike",
+                                "Amazon",
                                 style: TextStyle(
                                   color: Colors.grey.shade600,
                                   fontSize: 16,
@@ -103,7 +103,7 @@ class _CartState extends State<Cart> {
                             SlideAnimations(
                               delay: .7,
                               child: Text(
-                                "Size: 44",
+                                "Quantity: 2",
                                 style: TextStyle(
                                   color: Colors.grey.shade600,
                                   fontSize: 16,
@@ -235,7 +235,7 @@ class _CartState extends State<Cart> {
                             SlideAnimations(
                               delay: .9,
                               child: Text(
-                                "No 49, Alhaji Basheer St. Magodo",
+                                "No 49, Ain Shams St. Cairo",
                                 style: TextStyle(fontSize: 16),
                               ),
                             ),
@@ -416,7 +416,7 @@ class _CartState extends State<Cart> {
                                 fontSize: 16, color: Colors.grey.shade600),
                           ),
                           Text(
-                            "\$200",
+                            "\$500",
                             style: TextStyle(
                                 fontSize: 20,
                                 fontWeight: FontWeight.bold,

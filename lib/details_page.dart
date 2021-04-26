@@ -26,7 +26,9 @@ class _DetailsPageState extends State<DetailsPage> {
           child: Hero(
               tag: widget.tag,
               child: GestureDetector(
-                onTap: () {},
+                onTap: () {
+                  print('hi');
+                },
                 child: Container(
                   height: MediaQuery.of(context).size.height,
                   width: double.infinity,
@@ -113,7 +115,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                   FadeAnimation(
                                     delay: 1,
                                     child: Text(
-                                      "Size",
+                                      "Quantity",
                                       style: TextStyle(
                                           color: Colors.white, fontSize: 20),
                                     ),
@@ -148,7 +150,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                                           10)),
                                               child: Center(
                                                 child: Text(
-                                                  "38",
+                                                  "1",
                                                   style: TextStyle(
                                                       color: sizeIndex == 1
                                                           ? Colors.black
@@ -184,7 +186,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                                           10)),
                                               child: Center(
                                                 child: Text(
-                                                  "40",
+                                                  "2",
                                                   style: TextStyle(
                                                       color: sizeIndex == 2
                                                           ? Colors.black
@@ -220,7 +222,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                                           10)),
                                               child: Center(
                                                 child: Text(
-                                                  "44",
+                                                  "3",
                                                   style: TextStyle(
                                                       color: sizeIndex == 3
                                                           ? Colors.black
@@ -256,7 +258,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                                           10)),
                                               child: Center(
                                                 child: Text(
-                                                  "42",
+                                                  "4",
                                                   style: TextStyle(
                                                       color: sizeIndex == 4
                                                           ? Colors.black
@@ -292,7 +294,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                                           10)),
                                               child: Center(
                                                 child: Text(
-                                                  "46",
+                                                  "5",
                                                   style: TextStyle(
                                                       color: sizeIndex == 5
                                                           ? Colors.black

@@ -23,42 +23,34 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatelessWidget {
   List<Map<String, String>> dataList = [
-    {
-      "imageLink": "assets/images/one.jpg",
-      "tag": "one",
-      "name": "Jordan Sneakers"
-    },
+    {"imageLink": "assets/images/one.jpg", "tag": "one", "name": "PS5"},
     {
       "imageLink": "assets/images/two.jpg",
       "tag": "two",
-      "name": "Black Sneakers"
+      "name": "Samsung Screen"
     },
     {
       "imageLink": "assets/images/three.jpg",
       "tag": "three",
       "name": "Victoria's Hill"
     },
-    {
-      "imageLink": "assets/images/four.jpg",
-      "tag": "four",
-      "name": "Jordan Sneakers"
-    },
+    {"imageLink": "assets/images/four.jpg", "tag": "four", "name": "IPhone 11"},
     {
       "imageLink": "assets/images/five.jpg",
       "tag": "five",
-      "name": "Air Jordan"
+      "name": "Swim Shorts"
     },
-    {
-      "imageLink": "assets/images/six.jpg",
-      "tag": "six",
-      "name": "Nike Sneakers"
-    },
+    {"imageLink": "assets/images/six.jpg", "tag": "six", "name": "T-Sherts"},
     {
       "imageLink": "assets/images/seven.jpg",
       "tag": "seven",
-      "name": "Nike Sneakers White"
+      "name": "Nike Sneakers Red"
     },
-    {"imageLink": "assets/images/eight.jpg", "tag": "eight", "name": "LV Toms"},
+    {
+      "imageLink": "assets/images/eight.jpg",
+      "tag": "eight",
+      "name": "Laptop Bags"
+    },
   ];
   @override
   Widget build(BuildContext context) {
@@ -82,7 +74,7 @@ class MyHomePage extends StatelessWidget {
               onPressed: () {}),
         ],
         title: Text(
-          "Shoes",
+          "E-Shop",
           style: TextStyle(color: Colors.black, fontSize: 25),
         ),
       ),
@@ -105,7 +97,7 @@ class MyHomePage extends StatelessWidget {
                       child: Center(
                         child: Text(
                           "All",
-                          style: TextStyle(fontSize: 20),
+                          style: TextStyle(fontSize: 20, color: Colors.blue),
                         ),
                       ),
                     ),
@@ -119,7 +111,7 @@ class MyHomePage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20)),
                       child: Center(
                         child: Text(
-                          "Sneakers",
+                          "Men",
                           style: TextStyle(fontSize: 16),
                         ),
                       ),
@@ -134,7 +126,22 @@ class MyHomePage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20)),
                       child: Center(
                         child: Text(
-                          "Football",
+                          "Women",
+                          style: TextStyle(fontSize: 16),
+                        ),
+                      ),
+                    ),
+                  ),
+                  AspectRatio(
+                    aspectRatio: 2.3 / 1,
+                    child: Container(
+                      margin: EdgeInsets.only(right: 10),
+                      decoration: BoxDecoration(
+                          //color: Colors.grey[200],
+                          borderRadius: BorderRadius.circular(20)),
+                      child: Center(
+                        child: Text(
+                          "Electroincs",
                           style: TextStyle(fontSize: 16),
                         ),
                       ),
@@ -149,22 +156,7 @@ class MyHomePage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20)),
                       child: Center(
                         child: Text(
-                          "Soccer",
-                          style: TextStyle(fontSize: 16),
-                        ),
-                      ),
-                    ),
-                  ),
-                  AspectRatio(
-                    aspectRatio: 2.2 / 1,
-                    child: Container(
-                      margin: EdgeInsets.only(right: 10),
-                      decoration: BoxDecoration(
-                          //color: Colors.grey[200],
-                          borderRadius: BorderRadius.circular(20)),
-                      child: Center(
-                        child: Text(
-                          "Golf",
+                          "Home",
                           style: TextStyle(fontSize: 16),
                         ),
                       ),
@@ -267,7 +259,7 @@ class MyHomePage extends StatelessWidget {
                             FadeAnimation(
                               delay: .8,
                               child: Text(
-                                "Nike",
+                                "Amazon",
                                 style: TextStyle(
                                     color: Colors.white, fontSize: 18),
                               ),
@@ -293,7 +285,7 @@ class MyHomePage extends StatelessWidget {
                     FadeAnimation(
                       delay: 1,
                       child: Text(
-                        "\$100",
+                        "\$500",
                         style: TextStyle(
                             color: Colors.white,
                             fontWeight: FontWeight.bold,
